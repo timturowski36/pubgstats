@@ -3,10 +3,10 @@
 Ein kleines Python-Projekt zur Abfrage von Statistiken deines PUBG-Accounts
 
 ## 🚀 Features
-- API-Abfragen auf die PUBG-API
+- Abfragen auf die PUBG-API
 - Daten abrufen, tranformieren & abspeichern
-- Grundstruktur mit input/, output/, scripts/
-(unten findet ihre wie ihr die Statistiken in euer OBS einbauen könnt)
+
+(unten findet Ihr außerdem wie ihr die Statistiken in eure Streams mit OBS einbauen könnt)
 
 ## 📁 Projektstruktur
 ```text
