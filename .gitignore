@@ -1,2 +1,4 @@
 # .gitignore
 input/api_key.txt
+input/psn_accountid.txt
+input/steam_accountid.txt
