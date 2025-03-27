@@ -108,3 +108,13 @@ Die Panels habe ich mit https://streamlabs.com/ erstellt. Auf der Seite könnt i
 5. Neue Quelle hinzufügen mit "+" → Bild → Datei angeben (../PUBG-WINS STEAM.png) → "Okay" → der Quelle einen eindeutigen Namen geben, wie "PUBG Wins Stream Panel" bspw.
 6. Bild an entsprechende Stelle im Stream verschieben
 7. Ich hab bei mir noch die Deckkraft runtergeschraubt mit: Rechtsklick auf das Bild → Filter → Neuen Filter hinzufügen mit "+" → Farbkorrektur → Namen vergeben → Deckkraft festlegen → "Okay"
+
+## 📌 Batch-Datei erstellen
+``` batch
+@echo off
+cd /d "Hier müsst ihr euren Pfad zum Projektverzeichnis eintragen (in meinem Fall: "C:\Users\Tim\Documents\pubgstats")"
+python main.py
+pause
+```
+Dann auf "Speichern unter" und bei Dateityp: Alle Dateien (*.*) und einen entsprechenden Namen vergeben ("" bspw. pubg_stats_starter.bat).
+Wichtig dabei ist natürlich die Änderung ".bat" die euer File zu einer ausführbaren Datei macht. 
