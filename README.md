@@ -27,6 +27,8 @@ pip install requests
 ```
 (es werden außerdem die Pakete json, os, time und datetime verwendet, diese sind aber Teil der Standardbibilothek von Python)
 
+Ihr könnt den Projektordner natürlich auch so herunterladen, dann bekommt ihr jedoch keine Updates & Bugfixes.
+
 ## 🔑 Abrufen deines API-Tokens
 Hier findet ihr die Doku der PUBG-API: https://documentation.pubg.com/en/introduction.html
 
@@ -89,9 +91,9 @@ while True:
     time.sleep(120)
 ```
 4. Code ausführen und mit Ctr+C beenden (dann müssten eure Accountinformationen in den entsprechenden Files liegen (siehe input-Ordner)
-5. main.py wieder auf Ursprungszustand (s.O.) zurücksetzen und und erneut ausführen (siehe output-Ordner)
+5. main.py wieder auf Ursprungszustand (s.O.) zurücksetzen und und erneut ausführen
 
-Jetzt werden alle 2 min eure 
+Jetzt werden alle 2 min eure Statistiken in die txt-Datein geschrieben.
 
 ## 🎥 Einrichtung von OBS
 1. OBS öffnen
